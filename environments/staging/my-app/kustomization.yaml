@@ -4,6 +4,6 @@ replicas:
     count: 2
 images:
   - name: terezabisharyan/app-backend
-    newTag: d2aace79201fd876e7c3fe543624f94b869cfab3
+    newTag: 62303f82776d6dc6222071375b1dd9a15d1d015e
 resources:
   - ../../../my-app-base
