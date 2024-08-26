@@ -17,4 +17,4 @@ spec:
       - name: back-cnt
         image: terezabisharyan/app-backend
         ports:
-        - containerPort: 80
+        - containerPort: 3001
