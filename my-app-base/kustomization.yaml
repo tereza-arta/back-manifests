@@ -3,5 +3,6 @@ kind: Kustomization
 metadata:
   name: arbitrary
 resources:
-  - deployment.yaml
+  - back-deploy.yaml
+  - back-service.yaml
   - namespace.yaml
