@@ -1,9 +1,9 @@
-namespace: staging
-replicas:
-  - name: web-deployment
-    count: 2
-images:
-  - name: terezabisharyan/app-backend
-    newTag: 62303f82776d6dc6222071375b1dd9a15d1d015e
-resources:
-  - ../../../my-app-base
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+bases:
+- ../../../my-app-base
+patchesStrategicMerge:
+- headless.yaml
+- mongo-sts.yaml
+- pers-volume.yaml
+- secret.yaml
