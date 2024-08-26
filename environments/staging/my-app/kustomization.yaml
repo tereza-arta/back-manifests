@@ -1,6 +1,6 @@
 namespace: staging
 replicas:
-  - name: kubia-deployment
+  - name: back-deployment
     count: 2
 images:
   - name: terezabisharyan/app-backend
