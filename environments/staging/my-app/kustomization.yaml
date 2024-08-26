@@ -1,6 +1,6 @@
 namespace: staging
 replicas:
-  - name: back-deployment
+  - name: web-deployment
     count: 2
 images:
   - name: terezabisharyan/app-backend
