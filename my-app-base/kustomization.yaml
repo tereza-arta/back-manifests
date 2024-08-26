@@ -5,4 +5,8 @@ metadata:
 resources:
   - back-deploy.yaml
   - namespace.yaml
-  
+  - headless.yaml
+  - mongo-sts.yaml
+  - namespace.yaml
+  - pers-volume.yaml
+  - secret.yaml
