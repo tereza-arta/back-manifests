@@ -1,0 +1,9 @@
+namespace: staging
+replicas:
+  - name: kubia-deployment
+    count: 2
+images:
+  - name: terezabisharyan/app-backend
+    newTag: d2aace79201fd876e7c3fe543624f94b869cfab3
+resources:
+  - ../../../my-app-base
