@@ -31,7 +31,7 @@ spec:
               secretKeyRef:
                 name: db-secrets
                 key: password
-volumeClaimTemplates:
+  volumeClaimTemplates:
   - metadata:
       name: db-volume
     spec:
