@@ -3,7 +3,7 @@ kind: StatefulSet
 metadata:
   name: mongodb-sts
 spec:
-  serviceName: "headless"
+  serviceName: "mongo"
   replicas: 1
   selector:
     matchLabels:
