@@ -3,7 +3,6 @@ kind: Kustomization
 resources:
   - back-deploy.yaml
   - back-service.yaml
-  - headless.yaml
   - mongo-sts.yaml
   - mongo-service.yaml
   - pers-volume.yaml
