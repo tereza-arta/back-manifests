@@ -7,3 +7,4 @@ resources:
   - mongo-service.yaml
   - pers-volume.yaml
   - secret.yaml
+  - configs.yaml
