@@ -22,3 +22,5 @@ spec:
           env:
             - name: "DBHOST"
               value: mongo
+            - name: BASE_URL
+              value: http://web-service.default.svc.cluster.local
