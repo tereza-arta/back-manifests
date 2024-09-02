@@ -18,9 +18,9 @@ spec:
           imagePullPolicy: Always
           name: myweb
           ports:
-            - containerPort: 3001
+            - containerPort: 8080
           env:
             - name: "DBHOST"
               value: mongo
-            - name: BASE_URL
-              value: http://web-service.default.svc.cluster.local
+            #- name: BASE_URL
+              #value: http://web-service.default.svc.cluster.local
