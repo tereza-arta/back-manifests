@@ -14,7 +14,7 @@ spec:
         app: todoapp
     spec:
       containers:
-        - image: terezabisharyan/app-backend:9183a041f3a8f79cecc70ab523eaa0c48460897b
+        - image: terezabisharyan/app-backend:1aedbc825df70dd5e3b0efd67f6ad1898870e9aa
           imagePullPolicy: Always
           name: myweb
           ports:
